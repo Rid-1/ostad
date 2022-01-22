@@ -444,7 +444,7 @@ color: #fff
 .nightmode button.show-comments {
     background: #323232;
 }
-.nightmode .post-labels a:before, .nightmode .widget-title a, .nightmode .title-wrap .title a, .nightmode .cloud-label li a, .nightmode .sidebar .widget-title &gt; h3, .nightmode .title-wrap &gt; h3, .nightmode .featured-posts .widget-title &gt; h3{color:#fff}
+.nightmode .post-labels a:before, .nightmode .widget-title a, .nightmode .title-wrap .title a, .nightmode .cloud-label li a, .nightmode .sidebar .widget-title > h3, .nightmode .title-wrap > h3, .nightmode .featured-posts .widget-title > h3{color:#fff}
 .nightmode .post-labels a:hover{background-color:#323232}
 .nightmode .comments{color:#fff}
 .nightmode .MultiRelated {background:#323232;border-right-color:#fff}
