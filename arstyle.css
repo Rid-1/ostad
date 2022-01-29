@@ -57,6 +57,7 @@ url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff2) format('woff
 url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff) format('woff'),
 url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.ttf) format('truetype');
 }
+.blog-admin{display:none}
 .widget.AdSense{margin:0 0 20px!important;text-align:center}
 .adsbygoogle{height:auto !important}
 .google-auto-placed.ap_container{margin:0 0 20px !important}
