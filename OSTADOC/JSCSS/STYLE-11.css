@@ -176,7 +176,6 @@ section.widget_info_blog{padding:0!important;overflow:hidden;background:transpar
 .ktkbox-icon.twitter a{background:#19bfe5}
 .ktkbox-icon.circle a{background:#d64136}
 .ktkbox-info{margin:11px 0 0 0;font-size:12px;text-align:center}
-/*===================================== = Search Bar =====================================*/
  header form{float:right;width:100%}
 /*New Breaking*/
 #headlinenews{position:relative;background:#fff;border-bottom:5px solid #5FC6EB;border-top:5px solid #5FC6EB;display:block;height:22px;line-height:22px;overflow:hidden;margin:0 auto 20px;padding:5px 30px;width:980px}
@@ -186,10 +185,12 @@ section.widget_info_blog{padding:0!important;overflow:hidden;background:transpar
 .logo-svg{width: auto;height:30px;}
 .img-logo{display:flex}
 li.whatsapp-mobile{display:none !important;}
+.toggle-header-menu{display:none}
 /*----Responsive Design----*/
 @media screen and (max-width:1138px){.row{width:96%}#main-wrapper{width:69%}#sidebar-wrapper{width:31%}.home-ad .widget-content{margin:0 auto}}
 @media screen and (max-width:980px){li.whatsapp-desktop{display:none !important;}li.whatsapp-mobile{display:inline-block !important;}.logo-svg{width: auto;height:27px;}#menu{display:block}.mobile-menu{display:block}li.li-home{float:right;display:inline-block}#content-wrapper{margin:20px auto}#main-wrapper{width:100%}#sidebar-wrapper{width:100%;padding:0;margin:15px 0 0}.sect-left{width:100%;margin-left:0}#footer-sec2,#footer-sec3{margin-top:20px}.header-logo{margin:0 auto;float:none}.header-ads{display:none}}
 @media screen and (max-width:880px){#nav1,#menu-navigation-top{display:none}.tm-menu{float:right;width:20%}.tm-menu2{float:left;width:20%}.tm-menu .selectnav{padding:0 5px;height:30px!important;width:110px;font-size:13px;line-height:19px;border-radius:2px!important;-moz-border-radius:2px!important;-webkit-border-radius:2px!important;margin-top:5px}.header-menu #menu .selectnav{padding:0 10px!important;font-size:14px;height:35px;line-height:26px;margin-right:10px;float:right;border-radius:2px!important;margin-top:7px}}
+@media only screen and (max-width:728px){.toggle-header-menu{display:flex;margin:0 0 10px;padding:10px;background:#e8e8e8;text-align:center;color:#333;font-size:17px;font-weight:700;cursor:pointer}.navigation-top{height:0;overflow:hidden}.navigation-top li,.navigation-top li a{width:100%}#menu{height:initial;width:100%}#header-menu-toggle:checked~.navigation-top{height:initial}}
 @media screen and (max-width:600px){.block-image{width:100%;height:240px;margin:0 0 10px}.index .date-header{float:NONE}.related-posts .related-item{width:100%}.related-posts li:nth-child(2),.related-posts li:nth-child(3){margin-top:15px}#social-footer,.footer-wrapper .copyright{width:100%;text-align:center}.footer-copy .social-ico ul > li{float:none;margin:0 5px}.meta-post{display:none}.post-snip{margin-top:8px}.author-box{text-align:center;padding:10px}.author-info{padding-right:0;width:100%}.author img{float:none;margin:0 0 10px}.OTbar{display:none}}
 @media screen and (max-width:440px){.featured-posts .first-item .ty-image,.block-image{height:200px}.featured-posts .first-item .ty-title,#label_with_thumbs li:nth-child(1) .recent-title,.item .post-title{font-size:20px}.error-item{font-size:140px}.index .post h2{font-size:20px;white-space:none}}
 @media screen and (max-width:380px){.social-area{display:none}.header-logo{margin-bottom:0}.header-logo img{max-width:100%!important;max-height:100%;margin:10px 0}.error-item{font-size:115px}.file-downloader .buttons > * {width: 100%;margin: 10px 0!important;text-align: center;}.btn{width:unset !important}}
@@ -327,36 +328,4 @@ text-align:center;
 }
 .purple {
     background-color: #564f8a;
-}
-
-.toggle-header-menu {
-  display: none;
-}
-
-@media only screen and (max-width: 728px) {
-  .toggle-header-menu {
-    display: flex;
-    margin: 0 0 10px;
-    padding: 10px;
-    background: #e8e8e8;
-    text-align: center;
-    color: #333;
-    font-size: 17px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  .navigation-top {
-    height: 0;
-    overflow: hidden;
-  }
-  .navigation-top li, .navigation-top li a {
-    width: 100%;
-  }
-  #menu {
-    height: initial;
-    width: 100%;
- }
-  #header-menu-toggle:checked ~ .navigation-top {
-    height: initial;
-  }
 }
