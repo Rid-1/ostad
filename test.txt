@@ -1,0 +1,11 @@
+<div id="outlink">
+<p id="paragcount" style="display:flex"><b>Vous êtes en train de quitter OSTAD.MA ! Attendez quelques secondes s'il vous plaît ..</b></p>
+<span class="countdown" id="countdown">
+<span class="timer" id="timer">-</span>Secondes</span>
+<p id="paragbutton" style="display:none"><b>Le lien est prêt ..</b></p>
+<button id="linkbutton" style="display:none">Cliquez ici !</button>
+</div>
+
+<script type="text/javascript">
+if($.urlParam=function(n){var t=new RegExp("[?&]"+n+"=([^&#]*)").exec(window.location.href);return null==t?null:decodeURI(t[1])||0},null!=$.urlParam("to")){var countdown=$("#countdown"),linkbutton=$("#linkbutton"),time=20;function CountDown(){document.getElementById("timer").innerHTML=time,(time-=1)<0?countdown.fadeOut("slow",function(){linkbutton.fadeIn();$('#paragcount').css('display','none');$('#paragbutton').css('display','flex')}):window.setTimeout("CountDown()",1e3)}CountDown(),linkbutton.on("click",function(){var n=aesCrypto.decrypt(convertstr($.urlParam("to")),convertstr("root"));window.open('https://fr.ostad.ma/redirect?url='+n)})}
+$("#menu").addClass('hide');
